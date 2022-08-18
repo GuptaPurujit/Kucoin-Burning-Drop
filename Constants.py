@@ -1,0 +1,11 @@
+EXECUTABLE_PATH = "/home/puru/Downloads/chromedriver"
+FETCH_COOKIES = "N"
+START_SESSION = "Y"
+AMOUNT_PATH = "//input[@id='amount']"
+PASSWORD_PATH = "//input[@id='password']"
+ENTER_BUTTON = "/html/body/div[1]/div/div[2]/div/div[5]/div/div[3]/form/div[6]"
+LOGIN_URL = "https://www.kucoin.com/ucenter/signin?back=https%3A%2F%2Fpool-x.io%2Fx-lockdrop&c=pool-x&lang=en_US"
+XDROP_URL = "https://www.kucoin.com/earn/x-lockdrop"
+DELAY = 0.15
+START_STOP_KEY = "\\"
+EXIT_KEY = ";"
