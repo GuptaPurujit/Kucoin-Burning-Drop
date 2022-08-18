@@ -7,6 +7,9 @@ class FetchCookies:
         self.url = url
         self.browser = browser
 
+    def set_window_size(self, width, height):
+        self.browser.set_window_size(width, height)
+
     def get_session(self):
         # Start a new browser window and jump to xpool login page
         self.set_window_size(1920, 1080)
